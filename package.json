@@ -1,0 +1,13 @@
+{
+  "name": "rspack-webpackexports-warning-cost-repro",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.mjs",
+    "repro": "node repro.mjs"
+  },
+  "dependencies": {
+    "rspack-2.1": "npm:@rspack/core@2.1.2",
+    "rspack-2.2": "npm:@rspack/core@2.2.9"
+  }
+}
